@@ -11,7 +11,7 @@ export default function LocationList({ locations }) {
   }
   return (
     <>
-      <section>
+      <section className="locationList">
         <div className="locationList-center">
           {locations.map(item => {
             return <Location key={item.id} location={item} />;

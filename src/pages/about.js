@@ -7,9 +7,9 @@ export default function About() {
   return (
     <>
       <Hero>
-        <Banner title="Welcome" subtitle="refresh">
+        <Banner title="About Us" subtitle="Travel Collect_ive">
           <Link to="/locations" className="btn btn-primary">
-            welcome to the about us page
+            Return Home
           </Link>
         </Banner>
       </Hero>

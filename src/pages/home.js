@@ -3,7 +3,6 @@ import Hero from "../components/hero";
 import Banner from "../components/banner";
 import BioWhoWhat from "../components/bio-who-what";
 import { Link } from "react-router-dom";
-import Title from "../components/title";
 import FeaturedLocations from "../components/featuredLocations";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
             </Link>
           </Banner>
         </Hero>
-        <Title />
         <BioWhoWhat className="bio-who-what" />
         <FeaturedLocations />
       </section>

@@ -50,7 +50,7 @@ export default class SingleLocation extends Component {
           </Banner>
         </StyledHero>
         <section className="single-location">
-          <div className="single">
+          <div className="single-location-images">
             {defaultImgs.map((item, index) => {
               return <img key={index} src={item} alt={name} />;
             })}

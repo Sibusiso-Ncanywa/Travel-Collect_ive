@@ -13,7 +13,6 @@ import img8 from "./assets/images/Botswana/37574196_10156306883086970_8798484606
 import img9 from "./assets/images/Durban/d1.jpg";
 import img10 from "./assets/images/cape town/CT...jpg";
 import img11 from "./assets/images/Eastern Cape/h3.jpg";
-import img12 from "./assets/images/Botswana/IMG_20190826_121123 (1).jpg";
 
 export default [
   {
@@ -672,7 +671,7 @@ export default [
         {
           fields: {
             file: {
-              url: img12
+              url: img11
             }
           }
         },
@@ -758,4 +757,3 @@ export default [
     }
   }
 ];
-

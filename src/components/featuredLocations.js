@@ -14,7 +14,7 @@ export default class FeatureLocations extends Component {
 
     return (
       <>
-        <section className="featureLocation">
+        <section className="featured-Locations">
           <Title title="Featured Locations" />
           <div className="featured-locations-center">
             {loading ? <Loading /> : locations}

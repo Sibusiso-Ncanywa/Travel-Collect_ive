@@ -14,21 +14,27 @@ export default class Navbar extends Component {
     return (
       <header>
         <nav className="navbar navbar-expand-md">
-          <div className="container-fluid">
+          <div>
             <Link to="/" className="navbar-brand">
               Travel Collect_ive
             </Link>
+
             <button
               type="button"
-              className="navbar-toggler btn"
-              data-toggle="collapse"
-              data-target="#navbarResponsive"
+              className="navbar-toggler nav-icon btn"
+              onClick={this.handleToggle}
             >
               <FaAlignRight />
             </button>
+          </div>
+
+          <div className="container-fluid">
             <div
-              className="collapse navbar-collapse text-center"
-              id="navbarResponsive"
+              className={
+                this.state.isOpen
+                  ? "collapse navbar-collapse text-center"
+                  : "navbar-collapse text-center"
+              }
             >
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">

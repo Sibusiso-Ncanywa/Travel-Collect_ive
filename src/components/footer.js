@@ -13,11 +13,6 @@ export default class Footer extends Component {
   theLinks = {
     Links: [
       {
-        icon: <FaFacebook />,
-        link: this.addressInfo.fb,
-        name: "facebook"
-      },
-      {
         icon: <FaMailBulk />,
         link: "mailto:" + this.addressInfo.mail,
         name: this.addressInfo.mail
@@ -26,6 +21,11 @@ export default class Footer extends Component {
         icon: <FaPhone />,
         link: "tel:" + this.addressInfo.tel,
         name: this.addressInfo.tel
+      },
+      {
+        icon: <FaFacebook />,
+        link: this.addressInfo.fb,
+        name: "facebook"
       },
       {
         icon: <FaTwitter />,
@@ -46,7 +46,12 @@ export default class Footer extends Component {
               </address>
               {this.theLinks.Links.map(item => {
                 return (
-                  <a key={`item-${item.name}`} href={item.link}>
+                  <a
+                    key={`item-${item.name}`}
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span className="icon-size">{item.icon}</span>
                     <span className="link">{item.name}</span>
                   </a>
@@ -57,11 +62,26 @@ export default class Footer extends Component {
               <h4> developed by </h4>
               <h3> LizHack SA </h3>
               <p> The best business transformers </p>
-              <a href="http://lizhacksa.ml">lizhacksa.ml</a>
-              <a href="mailto:info@lizhacksa.ml">info@lizhacksa.ml</a>
+              <a
+                href="http://lizhacksa.ml"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                lizhacksa.ml
+              </a>
+              <a
+                href="mailto:info@lizhacksa.ml"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                info@lizhacksa.ml
+              </a>
             </div>
           </div>
-          <div className="footer-copyright">Travel Collect_ive &copy; 2020</div>
+          <div>
+            <span className="footer-copyright">Travel Collect_ive</span> &copy;
+            2020
+          </div>
         </footer>
       </>
     );
