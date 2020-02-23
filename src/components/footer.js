@@ -59,9 +59,9 @@ export default class Footer extends Component {
               })}
             </div>
             <div className="footer-developer">
-              <h4> developed by </h4>
+              <h4> Developed by </h4>
               <h3> LizHack SA </h3>
-              <p> The best business transformers </p>
+              <p className="moto"> The best business transformers </p>
               <a
                 href="http://lizhacksa.ml"
                 target="_blank"

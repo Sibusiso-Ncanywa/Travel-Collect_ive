@@ -8,7 +8,7 @@ export default function About() {
   const { image, info } = aboutPage_info;
   return (
     <>
-      <Hero>
+      <Hero hero="aboutUsHero">
         <Banner title="About Us" subtitle="Travel Collect_ive">
           <Link to="/" className="btn btn-primary">
             Return Home

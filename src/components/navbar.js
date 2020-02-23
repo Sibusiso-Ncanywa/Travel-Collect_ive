@@ -52,11 +52,6 @@ export default class Navbar extends Component {
                     Locations
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/#contactUs">
-                    Contact
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
