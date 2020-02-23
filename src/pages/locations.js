@@ -8,7 +8,7 @@ export default function Locations() {
   return (
     <>
       <Hero hero="locationsHero">
-        <Banner title="Our Work">
+        <Banner title="Potential Vacation Locations">
           <Link to="/" className="btn btn-primary">
             return Home
           </Link>

@@ -4,13 +4,18 @@ import { BookingInfo } from "../generalInfo";
 
 export default class Itenary extends Component {
   render() {
-    const { info, name } = BookingInfo;
+    const { info, name, deposit_info } = BookingInfo;
     return (
       <>
         <div className="itenary">
           <article className="info">
             <h3>{name}</h3>
-            <p>{info}</p>
+            <ul className="info-list">
+              {info.map((item, index) => {
+                return <li key={index}> {item} </li>;
+              })}
+            </ul>
+            <p>{deposit_info}</p>
           </article>
         </div>
       </>

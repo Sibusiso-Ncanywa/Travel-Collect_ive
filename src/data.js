@@ -1,9 +1,9 @@
-import location1 from "./assets/images/Botswana/11699079_10153383297191970_6723716512156752006_o.jpg";
-import location2 from "./assets/images/cape town/CT.............jpg";
+import location1 from "./assets/images/cape town/CT.............jpg";
+import location2 from "./assets/images/Botswana/11699079_10153383297191970_6723716512156752006_o.jpg";
 import location3 from "./assets/images/Durban/d10.jpg";
 import location4 from "./assets/images/Eastern Cape/h..jpg";
-import img1 from "./assets/images/Botswana/37554852_10156306883121970_1410131024196665344_o.jpg";
-import img2 from "./assets/images/cape town/CT.......jpg";
+import img2 from "./assets/images/Botswana/37554852_10156306883121970_1410131024196665344_o.jpg";
+import img1 from "./assets/images/cape town/CT.......jpg";
 import img3 from "./assets/images/Durban/d6.jpg";
 import img4 from "./assets/images/Eastern Cape/h3.jpg";
 import img5 from "./assets/images/Eastern Cape/h4.jpg";
@@ -13,6 +13,7 @@ import img8 from "./assets/images/Botswana/37574196_10156306883086970_8798484606
 import img9 from "./assets/images/Durban/d1.jpg";
 import img10 from "./assets/images/cape town/CT...jpg";
 import img11 from "./assets/images/Eastern Cape/h3.jpg";
+import img12 from "./assets/images/Botswana/queen.jpg";
 
 export default [
   {
@@ -20,17 +21,11 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
-      slug: "single-economy",
-      type: "single",
-      price: 100,
-      size: 200,
-      capacity: 1,
-      pets: false,
-      breakfast: false,
-      featured: false,
+      name: "Cape Town",
+      slug: "cape-town",
+      featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Our Cape Town holiday was the first vacation I actually sat down and did a itinerary for. Frustrated from discovering new places and having to wake up each day and trying to figure out what to do, I sat down, did some research and create the most amazing itinerary for our 6-day family/friend vacation in Cape Town. We lived in Muizenberg, Cape Town and travelled pretty much in and around Cape Town. We visited wine estates, kids’ amusement parks, restaurants and botanical gardens. Our vacation was filled with good food, good music, good company and memories we will always keep close to our hearts. (itinerary will be made available with bookings).",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -51,7 +46,51 @@ export default [
         {
           fields: {
             file: {
-              url: location2
+              url: location1
+            }
+          }
+        },
+        {
+          fields: {
+            file: {
+              url: img7
+            }
+          }
+        },
+        {
+          fields: {
+            file: {
+              url: img10
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    sys: {
+      id: "2"
+    },
+    fields: {
+      name: "Durban",
+      slug: "durban",
+      featured: true,
+      description:
+        "Durban will forever be close to my heart. When I was finally able to take my mom on holiday, I took her to Durban in December. We avoided all the tourist spots and kept to the quiet areas in and around Durban. We took train rides, went for high tea near the ocean, visited the best bakeries and spent most of the time exploring places on our itinerary. When we were not travelling, we filled our days with game drives, taking a swim with the resident monkeys in PheZulu and tasting crocodile dishes.",
+      extras: [
+        "Plush pillows and breathable bed linens",
+        "Soft, oversized bath towels",
+        "Full-sized, pH-balanced toiletries",
+        "Complimentary refreshments",
+        "Adequate safety/security",
+        "Internet",
+        "Comfortable beds"
+      ],
+      images: [
+        {
+          fields: {
+            file: {
+              url: img3
             }
           }
         },
@@ -65,7 +104,14 @@ export default [
         {
           fields: {
             file: {
-              url: location4
+              url: img6
+            }
+          }
+        },
+        {
+          fields: {
+            file: {
+              url: img9
             }
           }
         }
@@ -74,20 +120,14 @@ export default [
   },
   {
     sys: {
-      id: "2"
+      id: "3"
     },
     fields: {
-      name: "single basic",
-      slug: "single-basic",
-      type: "single",
-      price: 150,
-      size: 250,
-      capacity: 1,
-      pets: false,
-      breakfast: false,
-      featured: false,
+      name: "Botswana",
+      slug: "botswana",
+      featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "I grew up in Botswana, in a village outside of the capital city called Gabane. I have such fond memories of this space; of the home I grew up in and the grandparents that loved us and helped my mom raise us. Botswana has grown quite a bit in the last few years. The art scene is booming, music is booming, there are more restaurants opening then before and the CBD is booming. It's an exciting time to experience this growth of the country. I truly believe that Botswana is able to cater for individual needs. It has a vibrant nightlife and a host events for those who are interested the glitz and glam of it all. For those who would rather bond with nature, there are various kicking trails, camping sites and lush bush getaways to cater for your ever desire from the delat to the makgadikgadi pans! ",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -115,71 +155,14 @@ export default [
         {
           fields: {
             file: {
-              url: location3
+              url: img8
             }
           }
         },
         {
           fields: {
             file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "3"
-    },
-    fields: {
-      name: "single standard",
-      slug: "single-standard",
-      type: "single",
-      price: 250,
-      size: 300,
-      capacity: 1,
-      pets: true,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
+              url: img12
             }
           }
         }
@@ -191,17 +174,11 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
-      slug: "single-deluxe",
-      type: "single",
-      price: 300,
-      size: 400,
-      capacity: 1,
-      pets: true,
-      breakfast: true,
+      name: "Eastern Cape",
+      slug: "eastern-cape",
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The Eastern Cape in a beautiful place full of amazing towns and cities inland and up and down the coast. My favourite beach has to be the beach in Jeffreys Bay. It is warm, vast, the waters are blue as the sky and the atmosphere is slow and comfortable. Kenton-on-Sea is another favourite but watch the waves because they will carry you off. The beach is not far from a lagoon so when you get warned off my the rip curl, you can make your way there. Port Elizabeth has so many exciting places to eat and when you are not feeling like swimming in the ocean, you can make your way to a rooftop pool which overlooks the ocean for a quite sun downer. Grahamstown is home to the amazing Grahamstown National Arts Festival. Every year, for 11 beautiful days, the town is filled with arts, crafts and delicious food stall. ",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -222,527 +199,14 @@ export default [
         {
           fields: {
             file: {
-              url: location2
+              url: img11
             }
           }
         },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "5"
-    },
-    fields: {
-      name: "double economy",
-      slug: "double-economy",
-      type: "double",
-      price: 200,
-      size: 300,
-      capacity: 2,
-      pets: false,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
         {
           fields: {
             file: {
               url: img5
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "6"
-    },
-    fields: {
-      name: "double basic",
-      slug: "double-basic",
-      type: "double",
-      price: 250,
-      size: 350,
-      capacity: 2,
-      pets: false,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img6
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "7"
-    },
-    fields: {
-      name: "double standard",
-      slug: "double-standard",
-      type: "double",
-      price: 300,
-      size: 400,
-      capacity: 2,
-      pets: true,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img7
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "8"
-    },
-    fields: {
-      name: "double deluxe",
-      slug: "double-deluxe",
-      type: "double",
-      price: 400,
-      size: 500,
-      capacity: 2,
-      pets: true,
-      breakfast: true,
-      featured: true,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img8
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "9"
-    },
-    fields: {
-      name: "family economy",
-      slug: "family-economy",
-      type: "family",
-      price: 300,
-      size: 500,
-      capacity: 3,
-      pets: false,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img9
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "10"
-    },
-    fields: {
-      name: "family basic",
-      slug: "family-basic",
-      type: "family",
-      price: 350,
-      size: 550,
-      capacity: 4,
-      pets: false,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img10
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "11"
-    },
-    fields: {
-      name: "family standard",
-      slug: "family-standard",
-      type: "family",
-      price: 400,
-      size: 600,
-      capacity: 5,
-      pets: true,
-      breakfast: false,
-      featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img11
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "12"
-    },
-    fields: {
-      name: "family deluxe",
-      slug: "family-deluxe",
-      type: "family",
-      price: 500,
-      size: 700,
-      capacity: 6,
-      pets: true,
-      breakfast: true,
-      featured: true,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img11
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location4
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
-    sys: {
-      id: "13"
-    },
-    fields: {
-      name: "presidential",
-      slug: "presidential-room",
-      type: "presidential",
-      price: 600,
-      size: 1000,
-      capacity: 10,
-      pets: true,
-      breakfast: true,
-      featured: true,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: location1
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: location3
             }
           }
         },

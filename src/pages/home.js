@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/hero";
 import Banner from "../components/banner";
-import BioWhoWhat from "../components/bio-who-what";
+import WhoWhat from "../components/who-what";
 import { Link } from "react-router-dom";
 import FeaturedLocations from "../components/featuredLocations";
 
@@ -12,11 +12,11 @@ export default function Home() {
         <Hero>
           <Banner title="WHERE TO NEXT? LET' S PLAN YOUR NEXT GREAT ADVENTURE">
             <Link to="/locations" className="btn btn-primary">
-              See Potential Locations
+              See Potential Vacation Locations
             </Link>
           </Banner>
         </Hero>
-        <BioWhoWhat className="bio-who-what" />
+        <WhoWhat className="bio-who-what" />
         <FeaturedLocations />
       </section>
     </>
